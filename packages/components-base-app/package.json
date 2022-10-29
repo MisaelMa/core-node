@@ -1,0 +1,43 @@
+{
+  "name": "@televisaunivision/components-base-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage --runInBand --colors",
+    "test:ci": "jest --ci --reporters=default --reporters=github-actions --coverage --colors",
+    "lint": "tsc --noEmit && eslint src"
+  },
+  "dependencies": {
+    "graphql": "^16.3.0",
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "@televisaunivision/commons": "workspace:*",
+    "@televisaunivision/icons": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/runtime": "^7.12.5",
+    "@rnx-kit/babel-preset-metro-react-native": "^1.1.0",
+    "@rnx-kit/metro-config": "^1.2.33",
+    "@rnx-kit/metro-resolver-symlinks": "^0.1.21",
+    "@rushstack/eslint-config": "^2.6.0",
+    "@televisaunivision/eslint-settings": "workspace:*",
+    "@televisaunivision/jest": "workspace:*",
+    "@televisaunivision/typescript-settings": "workspace:*",
+    "@testing-library/react-native": "^10.1.1",
+    "@types/jest": "^27.4.1",
+    "@types/react-native": "^0.67.3",
+    "@types/react-test-renderer": "^17.0.1",
+    "@types/react": "^18.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.13.0",
+    "jest": "^28.1.2",
+    "metro-config": " ^0.71.0",
+    "metro-react-native-babel-preset": "^0.71.0",
+    "react-native-gradle-plugin": "~0.0.7",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.6.3"
+  }
+}

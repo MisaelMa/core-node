@@ -1,0 +1,13 @@
+{
+    "name": "@marin/my-controls",
+    "version": "0.0.1",
+    "private": true,
+    "description": "An example library project",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "scripts": {},
+    "devDependencies": {
+        "typescript": "^3.0.3"
+    }
+}

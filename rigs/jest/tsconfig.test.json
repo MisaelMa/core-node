@@ -1,0 +1,21 @@
+{
+  "extends": "./node_modules/@marin/tss/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "paths": {
+      "@marin/components-base-web/*": [
+        "../../packages/components-base-web/src/*"
+      ],
+      "@marin/components-base-app/*": [
+        "../../packages/components-base-app/src/*"
+      ],
+      "@marin/video/*": ["../../packages/video/src/*"],
+      "@marin/utilities/*": ["../../packages/utilities/src/*"],
+      "@marin/commons/*": ["../../packages/commons/src/*"],
+      "@marin/icons/*": ["../../packages/icons/src/*"]
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "exclude": ["node_modules", "**/node_modules"]
+}

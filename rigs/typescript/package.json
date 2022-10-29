@@ -1,0 +1,16 @@
+{
+  "name": "@marin/tss",
+  "version": "0.0.1",
+  "description": "Typescript rig settings",
+  "license": "MIT",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "@rushstack/heft": "^0.48.7",
+    "@rushstack/heft-jest-plugin": "^0.3.44",
+    "eslint": "^8.13.0",
+    "jest-environment-node": "^27.5.1",
+    "typescript": "^4.7.4"
+  }
+}

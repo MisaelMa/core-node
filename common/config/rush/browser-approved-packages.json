@@ -1,0 +1,346 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@babel/core",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@babel/preset-env",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@graphql-codegen/cli",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@graphql-codegen/near-operation-file-preset",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@graphql-codegen/typescript",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@graphql-codegen/typescript-graphql-files-modules",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@graphql-codegen/typescript-operations",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@marin/my-controls",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@marin/tss",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "@nestjs/cli",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@nestjs/common",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@nestjs/core",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@nestjs/platform-express",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@nestjs/schematics",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@nestjs/testing",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@recreando/tss",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@rushstack/heft",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@rushstack/heft-jest-plugin",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@swc/core",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@swc/jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@testing-library/dom",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@testing-library/react",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@testing-library/user-event",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@types/express",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@types/jest",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "@types/supertest",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@types/testing-library__jest-dom",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "babel-jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "babel-plugin-transform-import-meta",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "eslint-config-airbnb",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-config-airbnb-base",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-config-airbnb-typescript",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "eslint-import-resolver-typescript",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-better-styled-components",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-jsdoc",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-jsx-a11y",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "eslint-plugin-react",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-react-hooks",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "eslint-plugin-sort-destructure-keys",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "fetch-mock-jest",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "graphql",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "graphql-tag",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "identity-obj-proxy",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "jest-environment-jsdom",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest-environment-node",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest-light-runner",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest-styled-components",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest-transform-graphql",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "jest-watch-typeahead",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "my-controls",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "my-toolchain",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "next",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "next-router-mock",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "react-is",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "reflect-metadata",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "rxjs",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "source-map-support",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "styled-components",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "stylelint",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "stylelint-config-recommended",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "stylelint-config-styled-components",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "stylelint-order",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "stylelint-processor-styled-components",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "supertest",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "ts-jest",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "ts-loader",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "ts-node",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "tsconfig-paths",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "tsconfig-paths-webpack-plugin",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "vite",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "vite-plugin-node",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "webpack",
+      "allowedCategories": [ "libraries", "production" ]
+    },
+    {
+      "name": "whatwg-fetch",
+      "allowedCategories": [ "production" ]
+    }
+  ]
+}

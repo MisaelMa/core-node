@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+
+  "compilerOptions": {
+    "outDir": "../../../../../dist",
+    "rootDir": "../../../../../src",
+
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "baseUrl": "../../../../..",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "inlineSources": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.Iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noEmitOnError": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "types": [],
+    "useUnknownInCatchVariables": false,
+    "paths": {
+      "@marin/components-base-web/*": [
+        "./node_modules/@marin/components-base-web/src/*"
+      ],
+      "@marin/components-base-app/*": [
+        "./node_modules/@marin/components-base-app/src/*"
+      ],
+      "@marin/video/*": [
+        "./node_modules/@marin/video/src/*"
+      ],
+      "@marin/commons/*": [
+        "./node_modules/@marin/commons/src/*"
+      ],
+      "@marin/utilities/*": [
+        "./node_modules/@marin/utilities/src/*"
+      ],
+      "@marin/icons/*": [
+        "./node_modules/@marin/icons/src/*"
+      ],
+      "@marin/graphql/*": [
+        "./node_modules/@marin/graphql/src/*"
+      ],
+      "@marin/my-controls/*": [
+        "./node_modules/@marin/my-controls/src/*"
+      ]
+    }
+  },
+  "include": [
+    "../../../../../src/**/*.ts",
+    "../../../../../src/**/*.tsx",
+    "../../../../../src/*.d.ts",
+    "../../../../../src/**/*.json",
+    "../../../../../node_modules/@marin/**/src/**/*.ts",
+    "../../../../../node_modules/@marin/**/src/**/*.tsx",
+    "../../../../../node_modules/@marin/**/src/**/*.d.ts",
+    "../../../../../node_modules/@marin/**/src/**/*.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules",
+    "**/__mocks__/*.ts*",
+    "**/*.spec.ts*"
+  ]
+}

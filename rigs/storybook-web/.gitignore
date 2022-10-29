@@ -1,0 +1,3 @@
+# Storybook build files
+dist/static
+disc/static/**
